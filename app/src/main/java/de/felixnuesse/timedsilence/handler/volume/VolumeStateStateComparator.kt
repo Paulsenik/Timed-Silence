@@ -11,7 +11,7 @@ class VolumeStateStateComparator : Comparator<VolumeState> {
         }
 
         if (VolumeState.isFirstLouder(o1, o2)) {
-            return -1
+            return 1
         }
 
         if (VolumeState.isFirstLouder(o2, o1)) {
